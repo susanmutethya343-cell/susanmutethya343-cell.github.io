@@ -221,167 +221,375 @@
     </footer>
   </body>
 </html>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reimagining Ethiopian Coffee Culture | Susan Mutethya</title>
-    <style>
-      body {
-        font-family: "Georgia", serif;
-        background: #fafafa;
-        margin: 0;
-        color: #222;
-        line-height: 1.7;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reimagining Ethiopian Coffee Culture</title>
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      background-color: #f8f5f2;
+      color: #2e2b29;
+      margin: 0;
+      line-height: 1.7;
+      padding: 0;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      position: relative;
+      background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 65vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.45);
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+      padding: 0 20px;
+    }
+
+    .hero-text h1 {
+      font-size: 2.6em;
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-text p {
+      margin-top: 12px;
+      font-size: 1.2em;
+      color: #f3e6d0;
+      font-style: italic;
+    }
+
+    /* MAIN ARTICLE */
+    main {
+      max-width: 800px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 45px 55px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border-radius: 12px;
+    }
+
+    p {
+      margin-bottom: 18px;
+      font-size: 1.05em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #4b2e05;
+      color: #e6d9c1;
+      margin-top: 60px;
+      font-size: 0.95em;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        height: 45vh;
       }
-      header {
-        background: linear-gradient(120deg, #4b3832, #854442);
-        color: #fff;
-        text-align: center;
-        padding: 3rem 1rem;
+      .hero-text h1 {
+        font-size: 1.8em;
+      }
+      .hero-text p {
+        font-size: 1em;
       }
       main {
-        max-width: 800px;
-        margin: 2rem auto;
-        padding: 0 1rem;
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        padding: 25px;
       }
-      h1 {
-        color: #4b3832;
-        font-size: 1.9rem;
-        border-bottom: 2px solid #d9c8c0;
-        padding-bottom: 0.5rem;
-      }
-      a {
-        color: #854442;
-        text-decoration: none;
-      }
-      a:hover { text-decoration: underline; }
-      p { margin-bottom: 1.2rem; }
-      footer {
-        text-align: center;
-        color: #777;
-        padding: 2rem;
-        font-size: 0.9rem;
-      }
-    </style>
-  </head>
+    }
+  </style>
+</head>
 
-  <body>
-    <header>
+<body>
+  <!-- HERO HEADER -->
+  <section class="hero">
+    <div class="hero-text">
       <h1>Reimagining Ethiopian Coffee Culture</h1>
       <p>A Journey Through Addis Ababa’s Third Wave Cafés</p>
-    </header>
-    <main>
-      <p><em>By Susan Mutethya</em></p>
+    </div>
+  </section>
 
-      <p>
-        Coffee's origins are deeply ingrained in Ethiopian history and folklore. However, a new generation of baristas and coffee entrepreneurs in the centre of Addis Ababa is reinventing this age-old beverage by fusing modern technique with tradition to create a "third wave" coffee culture that is spreading throughout the city. This shift, which is taking place in the midst of Ethiopia's fast-paced urban pulse, is not just about coffee; it's a tale of tradition, creativity, and community.
-      </p>
-      <p>
-        As one strolls through the busy neighbourhoods of Addis Ababa, they come across an increasing number of modern cafés where pour-overs are prepared with exact ritual and single-origin beans are hand-roasted. In contrast to the centuries-old coffee ceremonies that continue to flourish in homes and communities, these areas are thriving centres of conversation and creativity. With an open and scientific approach that appeals to both locals and foreign connoisseurs, the third wave movement here embraces Ethiopia’s diverse coffee regions, showcasing beans from Sidamo, Harrar, and Yirgacheffe.
-      </p>
-      <p>
-        To understand this renaissance, I spoke with Alemayehu Tadesse, founder of Qore Coffee Roasters, who explained how his team meticulously sources beans directly from smallholder farmers to ensure quality and fair compensation. “We want to tell the story of our farmers in every cup,” he said. “This is about respect—for the land, the people, and the culture.”
-      </p>
-      <p>
-        Tadesse’s business is a part of a larger trend of coffee start-ups that are making significant investments in education, ranging from workshops on agronomy in rural areas to barista training. In addition to improving coffee quality, the goal is to promote economic empowerment. In certain areas, these programs have raised coffee-growing communities’ income by as much as 30%, according to a recent report by the Ethiopian Coffee and Tea Authority.
-      </p>
-      <p>
-        However, the change extends beyond economics. In Ethiopia, coffee is a cultural icon that invites people to relax and socialise. Customers frequently take part in live coffee ceremonies at Buna Kunda Café, a welcoming venue decorated with modern minimalism and traditional art, while sipping expertly brewed espresso shots. Selamawit Mengistu, the café’s owner, sees it as a meeting point of the modern and the ancient. “We embrace innovation while honouring our traditions,” she stated. “Every aspect of Ethiopia’s coffee story is experienced by our customers.”
-      </p>
-      <p>
-        Global tourists seeking a genuine taste of the place of origin are drawn to Addis Ababa’s coffee scene as tourism picks back up after the pandemic. Readers of <em>Foodism</em> who are organising a trip will discover a multitude of experiences here, ranging from workshops that demystify brewing techniques to farm visits that showcase the work that goes into each bean.
-      </p>
-      <p>
-        Whether you’re an experienced coffee lover or an inquisitive tourist, Ethiopia’s developing third wave offers a flavourful, human, and historical sensory experience. It’s a proudly complex tale that reflects Ethiopia’s own dynamic culture.
-      </p>
+  <!-- MAIN ARTICLE -->
+  <main>
+    <p>
+      Coffee's origins are deeply ingrained in Ethiopian history and folklore. However, a new generation of baristas and coffee entrepreneurs in the centre of Addis Ababa is reinventing this age-old beverage by fusing modern technique with tradition to create a "third wave" coffee culture that is spreading throughout the city. This shift, which is taking place in the midst of Ethiopia's fast-paced urban pulse, is not just about coffee; it's a tale of tradition, creativity, and community.
+    </p>
 
-      <p><a href="index.html">← Back to Portfolio</a></p>
-    </main>
-    <footer>© 2025 Susan Mutethya</footer>
-  </body>
+    <p>
+      As one strolls through the busy neighbourhoods of Addis Ababa, they come across an increasing number of modern cafés where pour-overs are prepared with exact ritual and single-origin beans are hand-roasted. In contrast to the centuries-old coffee ceremonies that continue to flourish in homes and communities, these areas are thriving centres of conversation and creativity. With an open and scientific approach that appeals to both locals and foreign connoisseurs, the third wave movement here embraces Ethiopia’s diverse coffee regions, showcasing beans from Sidamo, Harrar, and Yirgacheffe.
+    </p>
+
+    <p>
+      To understand this renaissance, I spoke with Alemayehu Tadesse, founder of Qore Coffee Roasters, who explained how his team meticulously sources beans directly from smallholder farmers to ensure quality and fair compensation. “We want to tell the story of our farmers in every cup,” he said. “This is about respect—for the land, the people, and the culture.”
+    </p>
+
+    <p>
+      Tadesse’s business is a part of a larger trend of coffee start-ups that are making significant investments in education, ranging from workshops on agronomy in rural areas to barista training. In addition to improving coffee quality, the goal is to promote economic empowerment. In certain areas, these programs have raised coffee-growing communities’ income by as much as 30%, according to a recent report by the Ethiopian Coffee and Tea Authority.
+    </p>
+
+    <p>
+      However, the change extends beyond economics. In Ethiopia, coffee is a cultural icon that invites people to relax and socialise. Customers frequently take part in live coffee ceremonies at Buna Kunda Café, a welcoming venue decorated with modern minimalism and traditional art, while sipping expertly brewed espresso shots. Selamawit Mengistu, the café’s owner, sees it as a meeting point of the modern and the ancient. “We embrace innovation while honouring our traditions,” she stated. “Every aspect of Ethiopia’s coffee story is experienced by our customers.”
+    </p>
+
+    <p>
+      Global tourists seeking a genuine taste of the place of origin are drawn to Addis Ababa’s coffee scene as tourism picks back up after the pandemic. Readers of <em>Foodism</em> who are organising a trip will discover a multitude of experiences here, ranging from workshops that demystify brewing techniques to farm visits that showcase the work that goes into each bean.
+    </p>
+
+    <p>
+      Whether you’re an experienced coffee lover or an inquisitive tourist, Ethiopia’s developing third wave offers a flavourful, human, and historical sensory experience. It’s a proudly complex tale that reflects Ethiopia’s own dynamic culture.
+    </p>
+  </main>
+
+  <footer>
+    <p>© 2025 Susan Mutethya | Feature Article | All Rights Reserved</p>
+  </footer>
+</body>
 </html>
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Night I Didn’t Board the Bus That Changed My Life | Susan Mutethya</title>
-    <style>
-      body {
-        font-family: "Georgia", serif;
-        background: #fdfdfd;
-        color: #222;
-        line-height: 1.7;
-        margin: 0;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Night I Didn’t Board the Bus That Changed My Life</title>
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      background-color: #f8f7f5;
+      color: #2b2623;
+      margin: 0;
+      line-height: 1.7;
+    }
+
+    /* HERO IMAGE SECTION */
+    .hero {
+      position: relative;
+      background-image: url('https://images.unsplash.com/photo-1524666041070-9d3b2a2ca4a1?auto=format&fit=crop&w=1600&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 65vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+      box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.45);
+    }
+
+    .hero-text {
+      position: relative;
+      z-index: 2;
+      padding: 0 20px;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5em;
+      margin: 0;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-text p {
+      margin-top: 12px;
+      font-size: 1.1em;
+      color: #f3e6d0;
+      font-style: italic;
+    }
+
+    /* MAIN CONTENT */
+    main {
+      max-width: 850px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 50px 55px;
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1.05em;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #2b2623;
+      color: #d8cfc5;
+      margin-top: 60px;
+      font-size: 0.95em;
+    }
+
+    @media (max-width: 600px) {
+      .hero {
+        height: 45vh;
       }
-      header {
-        background: linear-gradient(120deg, #2c3e50, #4ca1af);
-        color: white;
-        text-align: center;
-        padding: 3rem 1rem;
+      .hero-text h1 {
+        font-size: 1.8em;
+      }
+      .hero-text p {
+        font-size: 1em;
       }
       main {
-        max-width: 800px;
-        margin: 2rem auto;
-        padding: 0 1rem;
-        background: #fff;
-        border-radius: 8px;
-        box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        padding: 25px;
       }
-      h1 {
-        color: #2c3e50;
-        font-size: 1.9rem;
-        border-bottom: 2px solid #a3c2c2;
-        padding-bottom: 0.5rem;
-      }
-      a {
-        color: #2c3e50;
-        text-decoration: none;
-      }
-      a:hover { text-decoration: underline; }
-      p { margin-bottom: 1.2rem; }
-      footer {
-        text-align: center;
-        color: #777;
-        padding: 2rem;
-        font-size: 0.9rem;
-      }
-    </style>
-  </head>
+    }
+  </style>
+</head>
+<body>
 
-  <body>
-    <header>
+  <!-- HERO IMAGE -->
+  <section class="hero">
+    <div class="hero-text">
       <h1>The Night I Didn’t Board the Bus That Changed My Life</h1>
       <p>A Reflective Narrative by Susan Mutethya</p>
-    </header>
-    <main>
-      <p><em>By Susan Mutethya</em></p>
+    </div>
+  </section>
 
-      <p>
-        Sometimes, the moments that alter our paths don’t come with loud warnings or grand gestures—they arrive quietly, disguised as hesitation. This is the story of one night at a Nairobi bus station when a single choice—to stay instead of run—became the turning point that reshaped everything I thought I knew about courage, destiny, and myself.
-      </p>
-      <p>
-        I was supposed to leave that night. My bag was packed—one faded backpack stuffed with a change of clothes, my notebook, and a half-eaten packet of biscuits. The ticket to Mombasa was folded neatly inside my back pocket, warm against my skin as if reminding me that escape was only a bus ride away.
-      </p>
-      <p>
-        The 9:00 p.m. bus station in Nairobi pulsed with the chaos of movement—vendors shouting for attention, mothers herding sleepy children, drivers revving impatiently. I stood on the edge of it all, caught between leaving and staying, the night air thick with diesel fumes and indecision...
-      </p>
+  <!-- MAIN ARTICLE -->
+  <main>
+    <p>Sometimes, the moments that alter our paths don’t come with loud warnings or grand gestures—they arrive quietly, disguised as hesitation. This is the story of one night at a Nairobi bus station when a single choice—to stay instead of run—became the turning point that reshaped everything I thought I knew about courage, destiny, and myself.</p>
 
-      <p>
-        (Full narrative continues exactly as in your story — including Elijah’s conversation, the quiet dawn, and your final reflection.)
-      </p>
+    <p>I was supposed to leave that night.</p>
 
-      <p>
-        The night I didn’t board that bus didn’t end in fireworks or grand revelations. It ended in quiet—the kind of quiet that becomes a beginning. That night, I didn’t escape my life. I found it. Sometimes destiny doesn’t arrive with the bus that leaves. Sometimes it waits, quietly, with a cup of tea, for you to sit down and stay awhile.
-      </p>
+    <p>My bag was packed — one faded backpack stuffed with a change of clothes, my notebook, and a half-eaten packet of biscuits. The ticket to Mombasa was folded neatly inside my back pocket, warm against my skin as if reminding me that escape was only a bus ride away.</p>
 
-      <p><a href="index.html">← Back to Portfolio</a></p>
-    </main>
-    <footer>© 2025 Susan Mutethya</footer>
-  </body>
+    <p>The 9:00 p.m. bus station in Nairobi pulsed with the chaos of movement — vendors shouting for attention, mothers herding sleepy children, drivers revving impatiently. I stood on the edge of it all, caught between leaving and staying, the night air thick with diesel fumes and indecision.</p>
+
+    <p>I told myself I was ready to disappear. I had rehearsed it for weeks — the goodbye note left under my mother’s cup, the silent walk through the gate, the lie I’d told my boss about visiting relatives. All I needed to do was take one step forward when the conductor called for the last passengers.</p>
+
+    <p>But I didn’t.</p>
+
+    <p>Maybe it was fear, or fatigue, or that quiet inner voice that sometimes whispers what you don’t want to hear. All I know is that my feet refused to move.</p>
+
+    <p>That’s when I heard him.</p>
+
+    <p>“Excuse me — are you okay?”</p>
+
+    <p>The voice was soft, curious rather than intrusive. I turned to see a man leaning against a metal pole near the edge of the platform. He wore a weathered denim jacket and had a camera slung across his chest. The streetlight above him flickered, cutting light and shadow across his face.</p>
+
+    <p>I nodded automatically. “I’m fine.”</p>
+
+    <p>He tilted his head, unconvinced. “You don’t look fine.”</p>
+
+    <p>I wanted to tell him to mind his business, but something in his tone — not pity, but genuine concern — disarmed me. The world around us blurred into noise: engines rumbling, horns blaring, vendors shouting about roasted maize. But between us, there was a pocket of stillness.</p>
+
+    <p>He offered a paper cup of tea from the small stall beside him. Steam curled into the air, carrying the sharp scent of ginger. I hesitated, then took it. The warmth seeped into my hands like an anchor.</p>
+
+    <p>“Running away or running toward something?” he asked.</p>
+
+    <p>I gave a short laugh. “Does it matter?”</p>
+
+    <p>“Always,” he said, and sipped his tea. “One builds you; the other breaks you.”</p>
+
+    <p>His name was Elijah. He was a freelance photojournalist, traveling between towns, capturing people whose lives most others overlooked. He told me stories about the faces behind his photos — fishermen mending nets by moonlight, a mother selling oranges by the highway, children chasing kites made from plastic bags.</p>
+
+    <p>I listened, fascinated. His words painted pictures of people who carried their struggles like medals, not burdens.</p>
+
+    <p>For the first time that night, I said out loud what I had been holding in for months: “I’m tired of being small. Of being expected to stay quiet, stay safe, stay the same.”</p>
+
+    <p>He nodded slowly, eyes focused somewhere past me. “Sometimes staying takes more courage than leaving.”</p>
+
+    <p>The station loudspeaker crackled. “Last call for Mombasa.”</p>
+
+    <p>My heart lurched. I looked toward the bus — the driver tapping the steering wheel, the conductor glancing around for stragglers. This was it.</p>
+
+    <p>Elijah didn’t say anything. He just watched me, his expression unreadable. The kind of silence that feels like permission, not pressure.</p>
+
+    <p>I clutched the ticket so tightly it creased. For a heartbeat, I imagined what would happen if I got on — the coastal air against my skin, the endless highway swallowing everything I’d left behind. But then another image came, sharper and truer: my mother waking up to an empty room, my desk at work gathering dust, the echo of my own unfinished life.</p>
+
+    <p>And so, I stayed.</p>
+
+    <p>The bus doors hissed closed, and the sound of departure was louder than I expected — a metallic sigh that felt both like relief and regret. I stood there, rooted, watching the red taillights blur into the distance until they vanished completely.</p>
+
+    <p>Elijah didn’t speak until the station quieted. “You can still leave tomorrow,” he said, as if sensing the guilt rising in my throat.</p>
+
+    <p>“Maybe,” I murmured. “Or maybe tomorrow I’ll just learn how to stay.”</p>
+
+    <p>He smiled, a small, knowing curve of the lips. “That’s a harder journey.”</p>
+
+    <p>We sat on the wooden bench as the night deepened around us. The vendors packed up their goods; the tea stall closed with a clang of metal shutters. Somewhere in the distance, a stray dog barked. Elijah showed me photos on his camera — portraits of people framed in the golden light of evening. Each one told a story without needing words.</p>
+
+    <p>I asked him why he took pictures of strangers.</p>
+
+    <p>“Because they remind me that every life is a headline if you look close enough,” he said. “And sometimes, when I feel lost, I take a picture just to remember I’m still here.”</p>
+
+    <p>We talked until the sky paled with dawn. I told him about the stories I used to write before life grew too loud, before fear told me my words didn’t matter. He listened the way people rarely do — fully, without waiting to reply.</p>
+
+    <p>When morning came, the first matatus began honking at the gate. The air smelled of wet soil and frying chapati. Elijah stood and brushed dust from his jeans.</p>
+
+    <p>“I should go,” he said. “There’s a story waiting somewhere on the road.”</p>
+
+    <p>He slung his camera over his shoulder, then paused. “Write it,” he added.</p>
+
+    <p>“Write what?”</p>
+
+    <p>“Whatever kept you from that bus.”</p>
+
+    <p>Then he was gone, swallowed by the rhythm of the waking city.</p>
+
+    <p>I sat on the bench long after he left, staring at the crushed ticket still in my hand. The ink had smudged where my fingers had pressed too hard. Around me, life carried on — people rushing, shouting, bargaining — but inside, something had shifted.</p>
+
+    <p>It wasn’t that I suddenly knew what I wanted. It was that I finally understood I didn’t have to run to find it.</p>
+
+    <p>Over the next few weeks, I went back to work, but something in me refused to settle into old routines. Each evening, I found myself writing again — fragments at first, then full scenes, the way Elijah’s photos had captured frozen moments of truth.</p>
+
+    <p>I wrote about the station’s flickering lights, the ginger-scented tea, the hum of engines, and that strange, still conversation that changed everything. It became my quiet rebellion against the fear of staying.</p>
+
+    <p>Sometimes, I caught myself wondering where Elijah was — if he was crouched behind his camera somewhere on the coast, or sitting in another station, offering tea to another lost traveler. Maybe he had already forgotten our meeting. But I hadn’t.</p>
+
+    <p>That night became the hinge on which my life turned — not because of the stranger himself, but because of what he mirrored back at me: the realization that I wasn’t broken or cowardly for hesitating. I was simply becoming.</p>
+
+    <p>It’s strange how one small act — the decision not to step forward — can rewrite your entire sense of direction. I used to believe that courage meant leaving everything behind. Now I know that sometimes it means choosing to stay and face what hurts.</p>
+
+    <p>A few months later, I passed by the same bus station. It looked smaller than I remembered. The metal benches were rusting, the lights dimmer, the noise somehow less intimidating.</p>
+
+    <p>A woman stood where I once had — clutching a ticket, eyes darting between the platform and the dark horizon. I recognized the look: that fragile mix of hope and fear. For a second, I almost walked over to her, to offer tea or words that might change her mind. But I didn’t. Her story was hers to live.</p>
+
+    <p>Instead, I walked past the buses, toward the city’s heartbeat — markets opening, radios crackling, people starting over again. I realized I had finally done the same.</p>
+
+    <p>The night I didn’t board that bus didn’t end in fireworks or grand revelations. It ended in quiet — the kind of quiet that becomes a beginning.</p>
+
+    <p>That night, I didn’t escape my life. I found it.</p>
+
+    <p>Sometimes destiny doesn’t arrive with the bus that leaves.</p>
+
+    <p>Sometimes it waits, quietly, with a cup of tea, for you to sit down and stay awhile.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Susan Mutethya | Reflective Narrative | All Rights Reserved</p>
+  </footer>
+
+</body>
 </html>
